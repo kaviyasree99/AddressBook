@@ -1,13 +1,13 @@
 
 public class Contactdetails {
-	private String firstName;
-    private String lastName;
-    private String address;
-    private String city;
-    private String state;
-    private int zipCode;
-    private Long phoneNumber;
-    private String emailId;
+	 String firstName;
+     String lastName;
+     String address;
+     String city;
+     String state;
+     int zipCode;
+     Long phoneNumber;
+     String emailId;
 
     // access private fields using getters and setters
 
