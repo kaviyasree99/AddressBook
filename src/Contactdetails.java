@@ -5,9 +5,9 @@ public class Contactdetails {
     private String address;
     private String city;
     private String state;
-    private int zip;
-    private String phoneNumber;
-    private String email;
+    private int zipCode;
+    private Long phoneNumber;
+    private String emailId;
 
     // access private fields using getters and setters
 
@@ -51,28 +51,28 @@ public class Contactdetails {
         this.state = state;
     }
 
-    public int getZip() {
-        return zip;
+    public long getZipCode() {
+        return zipCode;
     }
 
-    public void setZip(int zip) {
-        this.zip = zip;
+    public void setZipCode(int zipCode) {
+        this.zipCode = zipCode;
     }
 
-    public String getPhoneNumber() {
+    public long getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
+    public void setPhoneNumber(long phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getEmail() {
-        return email;
+    public String getEmailId() {
+        return emailId;
     }
 
-    public void setEmail(String email) {
-        this.email =email;
+    public void setEmail(String emailId) {
+        this.emailId =emailId;
     }
 
     //Overridden Java toString method
@@ -85,9 +85,9 @@ public class Contactdetails {
                 ", address='" + address + '\'' +
                 ", city='" + city + '\'' +
                 ", state='" + state + '\'' +
-                ", zip=" + zip +
+                ", zip=" + zipCode +
                 ", phoneNumber='" + phoneNumber + '\'' +
-                ", email='" + email + '\'' +
+                ", email='" + emailId + '\'' +
                 '}';
     }
 
